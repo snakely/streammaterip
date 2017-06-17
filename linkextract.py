@@ -40,7 +40,7 @@ def increment(startingurl, filename):
         oldvideourl = oldvideo[0]
         oldname = oldvideo[1]
         newname = ''
-        f=open(filename + ".txt","w")
+        f=open(filename,"w")
         #f.write(oldvideourl + ", " + oldname + "\n")
         f.write("rtmpdump -r " + oldvideourl + " -o " + oldname + "\n")
         while True:
