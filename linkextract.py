@@ -60,7 +60,6 @@ def increment(startingurl, filename):
 def start():
         url = input('Please enter the first video url : ')
         filename = input('Please input the desired filename : ')
-        print (url, filename)
         increment(url, filename)
 
 start()
